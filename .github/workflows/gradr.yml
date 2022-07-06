@@ -42,6 +42,7 @@ jobs:
 
     - name: Review Challenge - 2
       if: always()
+
       run: |
         cd audits
         yarn audit-ch-2
